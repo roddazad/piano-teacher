@@ -2,8 +2,8 @@
 body {
     background-color: #222;
     color: white;
-    font-family: "Playfair Display", serif; /* Elegant and luxurious font */
-   
+    font-family: "Playfair Display", serif; /
+}
 
 
 /* Navbar */
@@ -98,82 +98,82 @@ body {
     font-size: 1.2em;
 }
 
-     /* Service Card Styling */
-     .service-card {
-        background: rgba(20, 20, 20, 0.9);
-        border-radius: 15px;
-        overflow: hidden;
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(10px);
-        margin-bottom: 20px; /* Ensuring proper spacing */
-    }
-    .service-card:hover {
-        transform: scale(1.03);
+/* Service Card Styling */
+.service-card {
+    background: rgba(20, 20, 20, 0.9);
+    border-radius: 15px;
+    overflow: hidden; 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    margin-bottom: 20px; 
+}
+.service-card:hover {
+    transform: scale(1.03);
         box-shadow: 0px 10px 20px rgba(106, 17, 203, 0.5);
-    }
-    .card-img-top {
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-        transition: transform 0.3s ease-in-out;
-    }
-    .service-card:hover .card-img-top {
-        transform: scale(1.08);
-    }
-    .card-body {
-        padding: 20px;
-    }
-    .card-title {
-        font-weight: bold;
-        font-size: 1.3rem;
-    }
+}
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+.service-card:hover .card-img-top {
+    transform: scale(1.08);
+}
+.card-body {
+    padding: 20px;
+}
+.card-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
 
-          /* Footer Styling */
-          .footer {
-            background: linear-gradient(135deg, #121212, #1a1a2e);
-            color: white;
-            padding: 40px 0;
-            /* width: 100vw; */
-            position: relative;
-            left: 0;
-            right: 0;
-            text-align: center;
-            margin: 0; 
-        }
-        .footer .social-icons a {
-            color: white;
-            font-size: 1.5rem;
-            margin: 0 10px;
-            transition: transform 0.3s ease-in-out;
-        }
-        .footer .social-icons a:hover {
-            transform: scale(1.2);
-            color: #00aaff;
-        }
-        .footer-links a {
-            color: rgba(255, 255, 255, 0.7);
-            text-decoration: none;
-            transition: color 0.3s ease-in-out;
-        }
-        .footer-links a:hover {
-            color: #00aaff;
-        }
-        .footer-bottom {
-            border-top: 1px solid rgba(255, 255, 255, 0.2);
-            margin-top: 20px;
-            padding-top: 10px;
-            text-align: center;
-            font-size: 0.9rem;
-        }
-        .footer .container-fluid {
-            width: 100%;
-            max-width: 100%;
-            padding-left: 0;
-            padding-right: 0;
-        }
-        .footer .row {
-            margin-left: 0 !important;
-            margin-right: 0 !important;
-        }
+/* Footer Styling */
+.footer {
+    background: linear-gradient(135deg, #121212, #1a1a2e);
+    color: white;
+    padding: 40px 0;
+            
+    position: relative;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0; 
+}
+.footer .social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.footer .social-icons a:hover {
+    transform: scale(1.2);
+    color: #00aaff;
+}
+.footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+.footer-links a:hover {
+    color: #00aaff;
+}
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.footer .container-fluid {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.footer .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
 
 
