@@ -176,4 +176,18 @@ body {
     margin-right: 0 !important;
 }
 
+@media (max-width: 768px) {
+    .footer {
+        padding: 10px 0; /* Reduce padding */
+    }
 
+    /* Hide everything except the copyright */
+    .footer .row {
+        display: none;
+    }
+
+    .footer-bottom {
+        padding: 5px;
+        font-size: 0.85rem;
+    }
+}
